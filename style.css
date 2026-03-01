@@ -3,3 +3,29 @@
     height: 180px;
     object-fit: cover;
 }
+
+.profil {
+    background-image: url('src/profil.png');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    color: #fff;
+    margin: 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+.profil::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.profil .container {
+    position: relative;
+    z-index: 2;
+}
