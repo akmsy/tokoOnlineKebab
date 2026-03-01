@@ -4,6 +4,16 @@
     object-fit: cover;
 }
 
+nav ul li a {
+  border-radius: 20px; 
+}
+
+nav ul li a:hover {
+  background-color: orange;
+  color: white;
+  padding: 5px 15px;
+}
+
 .profil {
     background-image: url('src/profil.png');
     background-size: cover;
@@ -12,7 +22,7 @@
     border-radius: 1rem;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     color: #fff;
-    margin: 50px;
+    margin: 20px 80px;
     position: relative;
     overflow: hidden;
 }
@@ -28,4 +38,8 @@
 .profil .container {
     position: relative;
     z-index: 2;
+}
+
+.deskripsi {
+    text-align: justify;
 }
